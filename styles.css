@@ -2,22 +2,40 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-.dashboard-container {
-  background-color: hsl(0, 0%, 20%);
-}
-
-img {
-  height: 1rem;
-  width: auto;
+  color: hsl(0, 0%, 80%);
 }
 
 path {
-  fill: black;
+  fill: hsl(0, 0%, 80%);
 }
 
 svg {
   height: 1rem;
   width: auto;
+}
+
+.dashboard-container {
+  background-color: hsl(0, 0%, 10%);
+}
+
+button {
+  background-color: hsl(0, 0%, 15%);
+  border: 0;
+}
+
+input {
+  background-color: hsl(0, 0%, 20%);
+  border: 2px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+}
+
+.header-container {
+  background-color: hsl(0, 0%, 15%);
+}
+
+.button-container button {
+  background-color: hsl(0, 0%, 10%);
+  border: 0;
+  border-radius: 20px;
+  padding: .2rem 1rem;
 }
