@@ -12,3 +12,12 @@ img {
   height: 1rem;
   width: auto;
 }
+
+path {
+  fill: black;
+}
+
+svg {
+  height: 1rem;
+  width: auto;
+}
