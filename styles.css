@@ -3,3 +3,12 @@
   margin: 0;
   padding: 0;
 }
+
+.dashboard-container {
+  background-color: hsl(0, 0%, 40%);
+}
+
+img {
+  height: 1rem;
+  width: auto;
+}
