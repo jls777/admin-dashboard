@@ -43,3 +43,7 @@ input {
 .contents div {
   background-color: hsl(0, 0%, 10%);
 }
+
+.announcements div {
+  background-color: hsl(0, 0%, 10%);
+}
