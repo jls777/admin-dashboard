@@ -22,6 +22,7 @@ svg {
 }
 
 .dashboard-container {
+  height: 100%;
   grid-row: span 2;
   background-color: hsl(0, 0%, 10%);
   display: grid;
@@ -93,9 +94,31 @@ input {
   border-radius: 20px;
   padding: .2rem 1.5rem;
 }
+/* ----------------------------------- */
+
+.content-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  background-color: hsl(0, 0%, 20%);
+}
+
+.project-container {
+  height: 100%;
+  grid-row: span 2;
+}
 
 .contents div {
   background-color: hsl(0, 0%, 10%);
+}
+
+.contents {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 1rem;
 }
 
 .announcements div {
